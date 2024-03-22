@@ -1,0 +1,29 @@
+{
+  "name": "eafugit",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FranciscoWatsica/eafugit.git"
+  },
+  "author": "EstevanWeissnat",
+  "license": "MIT",
+  "packageManager": "yarn@1.22.17",
+  "main": "dist/cjs/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "default": "./dist/cjs/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "shx": "^0.3.3",
+    "typescript": "^4.5.0-beta"
+  },
+  "homepage": "https://github.com/FranciscoWatsica/eafugit.git"
+}
